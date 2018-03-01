@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f2296573fca4b42be5353118494acf, type: 3}
+  m_Name: Goblin Spear
+  m_EditorClassIdentifier: 
+  gripTransform: {fileID: 4811831115661528, guid: 12966a1a192ca134093e62eeeb919134,
+    type: 2}
+  weaponPrefab: {fileID: 185776, guid: 843cd7f8f2fb4d1488ab944cd5e973d8, type: 2}
+  attackAnimation: {fileID: 7400000, guid: c36035eaef5d9ab4eb68cde076ba3946, type: 3}
+  timeBetweenAnimationCycles: 1
+  maxAttackRange: 2
+  additionalDamage: 0
+  damageDelay: 0.5

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f2296573fca4b42be5353118494acf, type: 3}
+  m_Name: Goblin Axe
+  m_EditorClassIdentifier: 
+  gripTransform: {fileID: 4811831115661528, guid: 00a29b5bed11f1f4ea867d0f682f8eda,
+    type: 2}
+  weaponPrefab: {fileID: 125176, guid: 9119d186ed5f8824da8756f69a439a82, type: 2}
+  attackAnimation: {fileID: 7400000, guid: f94c62a8b96f5a7469ce0da8ccac09b3, type: 3}
+  timeBetweenAnimationCycles: 1
+  maxAttackRange: 2
+  additionalDamage: 0
+  damageDelay: 0.5

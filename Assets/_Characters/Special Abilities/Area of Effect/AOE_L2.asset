@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 501a7d88bbefca94a9d70b550f93a5bf, type: 3}
+  m_Name: AOE_L2
+  m_EditorClassIdentifier: 
+  energyCost: 20
+  particlePrefab: {fileID: 1977060658541122, guid: ddb9eccb541f52c4d91b421e9aba766d,
+    type: 2}
+  abilityAnimation: {fileID: 7400000, guid: 02d57a77ed1a98f4597d9eb7cf47057a, type: 3}
+  audioClips:
+  - {fileID: 8300000, guid: d20656c6e36176646bf447cac86a223d, type: 3}
+  radius: 10
+  damageToEachTarget: 15

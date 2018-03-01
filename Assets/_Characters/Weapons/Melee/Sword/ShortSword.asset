@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f2296573fca4b42be5353118494acf, type: 3}
+  m_Name: ShortSword
+  m_EditorClassIdentifier: 
+  gripTransform: {fileID: 4811831115661528, guid: 3c22ad96468bbd346b3cef1dc569e6f1,
+    type: 2}
+  weaponPrefab: {fileID: 100000, guid: b5f2d01de5350774fbef827b55616de1, type: 3}
+  attackAnimation: {fileID: 7400000, guid: 65ab56ec63abae340b7646d2ed24c864, type: 3}
+  timeBetweenAnimationCycles: 0.5
+  maxAttackRange: 2
+  additionalDamage: 10
+  damageDelay: 0.5
